@@ -2,22 +2,27 @@
 
 from math import *
 import sympy as sp 
+from scipy.misc import derivative
 
 
 
 
-"""
-#Prueba derivada
+
+#Prueba derivada - salida simbolica
 def derivada():
     x = sp.Symbol('x')
-    y = (10*x +5)**(1/3)
+    y = (e**x + 5*x)**(1/2)
     return sp.diff(y,x)
 
 print(derivada())
-"""
-#Funcion prueba
+
+#Prueba derivada y evaluacion numerica
+f = lambda x: derivada()
+print(derivative(f,0, dx=1e-8))
+
+#Funcion prueba despejada
 def pol_prima(x): 
-    return (10*x +5)**(1/3)
+    return (2*x +1)**(1/3)
     
 def puntofijo(f, p0, tol, n): #Método del punto fijo
     i = 1
@@ -35,4 +40,4 @@ def puntofijo(f, p0, tol, n): #Método del punto fijo
 #pol(x), po = 0.9, tol = 10^-10, n=100
 
 print("Pol prueba")
-puntofijo(pol_prima, 1, 0.0001, 12)
+puntofijo(pol_prima, 0, 0.00001, 12)
