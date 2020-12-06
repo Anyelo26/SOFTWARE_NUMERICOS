@@ -31,4 +31,3 @@ def pregunta_crear(request):
     else:
            form = PreguntaForm()
     return render(request, 'plantillas/formulario.html', {'form': form},)
-

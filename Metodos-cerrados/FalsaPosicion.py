@@ -35,5 +35,4 @@ while numeroIteraciones> 0: #si el error es mayor de 4 decimales
     
     print("raiz","{0:.6f}".format(ractual))
     print("iteracion",i,"porcentaje de error:","{0:.6f}".format(error))
-
 #print("{0:.6f}".format(raiz))

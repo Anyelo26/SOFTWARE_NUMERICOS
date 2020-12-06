@@ -1,12 +1,7 @@
 #Implementación del método del punto fijo
-
 from math import *
 import sympy as sp 
 from scipy.misc import derivative
-
-
-
-
 
 #Prueba derivada - salida simbolica
 def derivada():
