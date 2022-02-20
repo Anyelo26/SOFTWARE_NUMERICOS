@@ -1,2 +1,2 @@
-# Metodo de la secante para calcular raices de ecuaciones no lineales
+# Método de la secante para calcular raíces de ecuaciones no lineales
 
