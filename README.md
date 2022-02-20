@@ -1,2 +1,2 @@
-# SOFTWARE EDUCATIVO PARA LA ENSEÑANZA DE METODOS NUMERICOS
- Software educativo para aprender el cursos de metodos numericos
+# Metodo de la secante para calcular raices de ecuaciones no lineales
+
